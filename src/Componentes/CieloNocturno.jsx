@@ -130,8 +130,8 @@ const CieloNocturno = ({ atras }) => {
                     <button onClick={() => mover(0, -1)}>⬆️ Arriba</button>
                 </div>
                 <div>
-                    <button onClick={() => mover(-1, 0)} style={{ marginRight: '10px', marginTop: '10px' }}>⬅️Derecha</button>
-                    <button onClick={() => mover(1, 0)} style={{ marginLeft: '10px', marginTop: '10px' }}>Izquierda➡️</button>
+                    <button onClick={() => mover(-1, 0)} style={{ marginRight: '10px', marginTop: '10px' }}>Izquierda➡️</button>
+                    <button onClick={() => mover(1, 0)} style={{ marginLeft: '10px', marginTop: '10px' }}>⬅️Derecha</button>
                 </div>
                 <div>
                     <button onClick={() => mover(0, 1)} style={{marginTop: '10px' }}>⬇️ Abajo</button>
